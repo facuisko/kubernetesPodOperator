@@ -12,4 +12,4 @@ steps:
   args: ['-c', 'docker push us-east4-docker.pkg.dev/${_PROJECT_ID}/${_ARTIFACT_NAME}/${_IMAGE_NAME}']
 
 substitutions:
-  _PROJECT_ID: $PROJECT_ID #
+  _PROJECT_ID: $PROJECT_ID
