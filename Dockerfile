@@ -1,4 +1,4 @@
-FROM google/cloud-sdk
+FROM google/cloud-sdk:latest
 COPY . /app/
 
 RUN apt-get update 
